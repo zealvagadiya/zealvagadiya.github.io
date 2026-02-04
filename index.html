@@ -1,116 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Zeal Vagadiya | Cyber Security Aspirant</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      line-height: 1.6;
-    }
-    header {
-      background: #020617;
-      padding: 20px;
-      position: sticky;
-      top: 0;
-    }
-    nav a {
-      color: #38bdf8;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 50px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #38bdf8;
-    }
-    .card {
-      background: #020617;
-      padding: 20px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #020617;
-      color: #94a3b8;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeal Vagadiya - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Zeal Vagadiya</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-<header>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1 class="hello-text">Hello, I'm</h1>
+            <h1 class="name-text">Zeal Vagadiya</h1>
+            <p class="typing-text">BCA Student | Aspiring Cyber Security Intern</p>
+            <div class="home-buttons">
+                <a href="#about" class="btn btn-primary">About Me</a>
+                <a href="#contact" class="btn btn-secondary">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="tel:9728331587" class="social-icon"><i class="fas fa-phone"></i></a>
+                <a href="mailto:vagadiyazeal@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
 
-<section id="home">
-  <h1>Zeal Vagadiya</h1>
-  <p>BCA Student | Aspiring Cyber Security Intern</p>
-</section>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="profile.jpg" alt="Zeal Vagadiya">
+                </div>
+                <div class="about-text">
+                    <h3>BCA Student & Cyber Security Enthusiast</h3>
+                    <p>I am a BCA student who is learning Cyber Security and has basic knowledge of HTML, CSS, and PHP. I have part-time work experience in accounting and customer communication. I'm interested in cyber security and looking for an internship to learn and grow in a real working environment.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value">Zeal Vagadiya</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Education:</span>
+                            <span class="info-value">BCA (2023-2026)</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">Surat, Gujarat</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">vagadiyazeal@gmail.com</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="about">
-  <h2>About Me</h2>
-  <div class="card">
-    <p>
-      I am a BCA student passionate about Cyber Security.
-      I am learning ethical hacking, networking basics, and security concepts.
-      Actively looking for internships to gain real-world experience.
-    </p>
-  </div>
-</section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Cyber Security</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Cyber Threats & Awareness</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Security Concepts</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="55"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Cyber Hygiene</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                </div>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="card">
-    <ul>
-      <li>Cyber Security Basics</li>
-      <li>Networking Fundamentals</li>
-      <li>Linux Basics</li>
-      <li>HTML & CSS</li>
-      <li>MS Excel & Tally Prime</li>
-    </ul>
-  </div>
-</section>
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Web Technologies</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">PHP</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="50"></div>
+                        </div>
+                    </div>
+                </div>
 
-<section id="projects">
-  <h2>Projects & Learning</h2>
-  <div class="card">
-    <p>
-      • Personal Portfolio Website (GitHub Pages)<br>
-      • Cyber Security Fundamentals Practice<br>
-      • Internship Preparation & Labs
-    </p>
-  </div>
-</section>
+                <div class="skill-category">
+                    <h3><i class="fas fa-network-wired"></i> Networking</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Networking Concepts</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">TCP/IP</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="55"></div>
+                        </div>
+                    </div>
+                </div>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <div class="card">
-    <p>Email: zeal@example.com</p>
-    <p>GitHub: github.com/zealvagadiya</p>
-    <p>LinkedIn: (add your link)</p>
-  </div>
-</section>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Software</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Tally Prime</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">MS Office</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Canva</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<footer>
-  © 2026 Zeal Vagadiya
-</footer>
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Telecaller → Accountant (Part-Time)</h3>
+                        <span class="timeline-date">Along with BCA studies</span>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Surat, Gujarat</p>
+                        <ul>
+                            <li>Joined the company as a Telecaller and handled customer calls and follow-ups</li>
+                            <li>Promoted to Accountant based on performance and reliability</li>
+                            <li>Worked with Tally Prime accounting software for billing and record management</li>
+                            <li>Managed daily accounting entries and company data with accuracy</li>
+                            <li>Handled company operations and responsibilities during the absence of the manager</li>
+                        </ul>
+                    </div>
+                </div>
 
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Computer Applications</h3>
+                        <span class="timeline-date">2023 - 2026</span>
+                        <p class="timeline-location"><i class="fas fa-university"></i> Veer Narmad South Gujarat University</p>
+                        <p>Currently pursuing BCA with focus on Cyber Security, Web Technologies, and Networking.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects & Learning</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Cyber Attacks Study</h3>
+                    <p>Studied common cyber attacks including phishing, malware, and social engineering techniques.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fab fa-linux"></i>
+                    </div>
+                    <h3>Linux Commands Practice</h3>
+                    <p>Practiced Linux basic commands and file permissions for system administration.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Networking Fundamentals</h3>
+                    <p>Learned basic networking concepts including IP, DNS, and TCP/IP protocols.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Created simple HTML/CSS pages and understood basic web security risks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>9728331587</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>vagadiyazeal@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Surat, Gujarat, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-language"></i>
+                        <div>
+                            <h4>Languages</h4>
+                            <p>English, Hindi (Fluent), Gujarati (Native)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Zeal Vagadiya. All Rights Reserved.</p>
+            <div class="footer-social">
+                <a href="tel:9728331587" class="social-icon"><i class="fas fa-phone"></i></a>
+                <a href="mailto:vagadiyazeal@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
