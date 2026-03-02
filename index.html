@@ -2,314 +2,169 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Zeal Vagadiya | Cyber Security Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zeal Vagadiya - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="navbar">
-        <div class="nav-container">
-            <div class="logo">Zeal Vagadiya</div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+
+<header>
+    <div class="container nav-container">
+        <h1 class="logo">Zeal Vagadiya</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+        </nav>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div class="container">
+        <h2>Cyber Security Enthusiast / IT Professional</h2>
+        <p class="tagline">Securing Digital Systems with Knowledge, Curiosity & Continuous Learning</p>
+        <p class="intro">
+            I am an IT professional transitioning into Cyber Security with hands-on learning in networking, 
+            system security, and vulnerability assessment. Passionate about protecting systems 
+            and solving real-world technical challenges.
+        </p>
+        <a href="#projects" class="btn">View Projects</a>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            I began my professional journey in business operations and account management, 
+            where I developed strong communication, analytical, and organizational skills. 
+            Over time, my interest in technology and digital security led me to transition 
+            into the IT and Cyber Security domain.
+        </p>
+        <p>
+            Currently, I am focused on strengthening my expertise in networking fundamentals, 
+            system security, and VAPT basics. I continuously improve my knowledge through 
+            practical labs, projects, and technical exploration.
+        </p>
+        <p>
+            My goal is to build a strong foundation in Cyber Security and contribute to 
+            securing modern digital infrastructures.
+        </p>
+    </div>
+</section>
+
+<section id="skills" class="section alt-section">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Computer Networking Fundamentals</li>
+                    <li>Cyber Security Basics</li>
+                    <li>VAPT Concepts</li>
+                    <li>IP Addressing & Subnetting</li>
+                    <li>Web Security Fundamentals</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>Linux (Kali Linux)</li>
+                    <li>Nmap</li>
+                    <li>Wireshark</li>
+                    <li>Burp Suite (Basic)</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Adaptability</li>
+                    <li>Communication</li>
+                    <li>Team Collaboration</li>
+                    <li>Continuous Learning</li>
+                </ul>
             </div>
         </div>
-    </nav>
+    </div>
+</section>
 
-    <!-- Home Section -->
-    <section id="home" class="home-section">
-        <div class="home-content">
-            <h1 class="hello-text">Hello, I'm</h1>
-            <h1 class="name-text">Zeal Vagadiya</h1>
-            <p class="typing-text">BCA Student | Aspiring Cyber Security Intern</p>
-            <div class="home-buttons">
-                <a href="#about" class="btn btn-primary">About Me</a>
-                <a href="#contact" class="btn btn-secondary">Contact</a>
+<section id="projects" class="section">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Network Scanning Lab</h3>
+                <p>
+                    Performed network discovery and port scanning using Nmap. 
+                    Identified open ports, services, and basic vulnerabilities in a lab environment.
+                </p>
+                <a href="https://github.com/zealvagadiya" target="_blank">View on GitHub</a>
             </div>
-            <div class="social-links">
-                <a href="tel:9728331587" class="social-icon"><i class="fas fa-phone"></i></a>
-                <a href="mailto:vagadiyazeal@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
-                <a href="https://in.linkedin.com/in/zeal-vagadiya-818bb43a7" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                <a href="https://zealvagadiya.github.io/" class="social-icon"><i class="fab fa-github"></i></a>
+            <div class="project-card">
+                <h3>Web Application Testing Practice</h3>
+                <p>
+                    Practiced identifying common web vulnerabilities such as 
+                    SQL Injection and XSS using testing tools in a safe lab setup.
+                </p>
+                <a href="https://github.com/zealvagadiya" target="_blank">View on GitHub</a>
             </div>
-        </div>
-        <div class="scroll-down">
-            <a href="#about"><i class="fas fa-chevron-down"></i></a>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="=photo.jpeg" alt="Zeal Vagadiya">
-                </div>
-                <div class="about-text">
-                    <h3>BCA Student & Cyber Security Enthusiast</h3>
-                    <p>I am a BCA student who is learning Cyber Security and has basic knowledge of HTML, CSS, and PHP. I have part-time work experience in accounting and customer communication. I'm interested in cyber security and looking for an internship to learn and grow in a real working environment.</p>
-                    <div class="about-info">
-                        <div class="info-item">
-                            <span class="info-label">Name:</span>
-                            <span class="info-value">Zeal Vagadiya</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Education:</span>
-                            <span class="info-value">BCA (2023-2026)</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Location:</span>
-                            <span class="info-value">Surat, Gujarat</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Email:</span>
-                            <span class="info-value">vagadiyazeal@gmail.com</span>
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                </div>
+            <div class="project-card">
+                <h3>Linux Administration Basics</h3>
+                <p>
+                    Hands-on experience with Linux commands, file permissions, 
+                    user management, and system configuration.
+                </p>
+                <a href="https://github.com/zealvagadiya" target="_blank">View on GitHub</a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section">
-        <div class="container">
-            <h2 class="section-title">My Skills</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3><i class="fas fa-shield-alt"></i> Cyber Security</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">Cyber Threats & Awareness</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="60"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Security Concepts</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="55"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Cyber Hygiene</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="70"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Web Technologies</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">HTML</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="75"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">CSS</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="70"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">PHP</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="50"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-network-wired"></i> Networking</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">Networking Concepts</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="60"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">TCP/IP</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="55"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Tools & Software</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">Tally Prime</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="85"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">MS Office</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="80"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Canva</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="75"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<section id="experience" class="section alt-section">
+    <div class="container">
+        <h2>Experience</h2>
+        <div class="experience-card">
+            <h3>Account Manager</h3>
+            <p>
+                Managed client accounts, handled billing processes, maintained 
+                financial records, and ensured smooth business operations. 
+                Developed strong analytical thinking and responsibility.
+            </p>
         </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience-section">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Telecaller → Accountant (Part-Time)</h3>
-                        <span class="timeline-date">Along with BCA studies</span>
-                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Surat, Gujarat</p>
-                        <ul>
-                            <li>Joined the company as a Telecaller and handled customer calls and follow-ups</li>
-                            <li>Promoted to Accountant based on performance and reliability</li>
-                            <li>Worked with Tally Prime accounting software for billing and record management</li>
-                            <li>Managed daily accounting entries and company data with accuracy</li>
-                            <li>Handled company operations and responsibilities during the absence of the manager</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Bachelor of Computer Applications</h3>
-                        <span class="timeline-date">2023 - 2026</span>
-                        <p class="timeline-location"><i class="fas fa-university"></i> Veer Narmad South Gujarat University</p>
-                        <p>Currently pursuing BCA with focus on Cyber Security, Web Technologies, and Networking.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="experience-card">
+            <h3>Cyber Security Learning & Practical Training</h3>
+            <p>
+                Completed structured self-learning and practical labs in networking, 
+                security testing, and system hardening. Focused on understanding 
+                real-world security risks and mitigation techniques.
+            </p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <h2 class="section-title">Projects & Learning</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-user-shield"></i>
-                    </div>
-                    <h3>Cyber Attacks Study</h3>
-                    <p>Studied common cyber attacks including phishing, malware, and social engineering techniques.</p>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fab fa-linux"></i>
-                    </div>
-                    <h3>Linux Commands Practice</h3>
-                    <p>Practiced Linux basic commands and file permissions for system administration.</p>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-network-wired"></i>
-                    </div>
-                    <h3>Networking Fundamentals</h3>
-                    <p>Learned basic networking concepts including IP, DNS, and TCP/IP protocols.</p>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Web Development</h3>
-                    <p>Created simple HTML/CSS pages and understood basic web security risks.</p>
-                </div>
-            </div>
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>Let's connect and collaborate on technology and security projects.</p>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/zeal-vagadiya" target="_blank">LinkedIn</a>
+            <a href="https://github.com/zealvagadiya" target="_blank">GitHub</a>
+            <a href="mailto:your-email@example.com">Email Me</a>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p>9728331587</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>vagadiyazeal@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Location</h4>
-                            <p>Surat, Gujarat, India</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-language"></i>
-                        <div>
-                            <h4>Languages</h4>
-                            <p>English, Hindi (Fluent), Gujarati (Native)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form>
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="email" placeholder="Your Email" required>
-                        <input type="text" placeholder="Subject" required>
-                        <textarea placeholder="Your Message" rows="5" required></textarea>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+<footer>
+    <p>© 2026 Zeal Vagadiya | Cyber Security Portfolio</p>
+</footer>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Zeal Vagadiya. All Rights Reserved.</p>
-            <div class="footer-social">
-                <a href="tel:9728331587" class="social-icon"><i class="fas fa-phone"></i></a>
-                <a href="mailto:vagadiyazeal@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
