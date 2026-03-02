@@ -1,6 +1,6 @@
-/* ===========================
+/* ======================
    Global Styles
-=========================== */
+====================== */
 * {
     margin: 0;
     padding: 0;
@@ -20,15 +20,14 @@ body {
     margin: auto;
 }
 
-/* ===========================
+/* ======================
    Header
-=========================== */
+====================== */
 header {
     background: #111827;
     padding: 15px 0;
     position: sticky;
     top: 0;
-    z-index: 1000;
 }
 
 .nav-container {
@@ -57,9 +56,9 @@ nav a:hover {
     color: #38bdf8;
 }
 
-/* ===========================
-   Hero Section
-=========================== */
+/* ======================
+   Hero
+====================== */
 .hero {
     text-align: center;
     padding: 100px 20px;
@@ -68,21 +67,21 @@ nav a:hover {
 
 .hero h2 {
     font-size: 2.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .tagline {
     color: #38bdf8;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .intro {
     max-width: 600px;
-    margin: 0 auto 30px;
+    margin: auto;
+    margin-bottom: 25px;
 }
 
 .btn {
-    display: inline-block;
     padding: 10px 25px;
     background: #38bdf8;
     color: #0f172a;
@@ -95,9 +94,9 @@ nav a:hover {
     background: #0ea5e9;
 }
 
-/* ===========================
+/* ======================
    Sections
-=========================== */
+====================== */
 .section {
     padding: 70px 0;
 }
@@ -112,71 +111,44 @@ nav a:hover {
     color: #38bdf8;
 }
 
-/* ===========================
-   Skills
-=========================== */
-.skills-grid {
+/* ======================
+   Grid Layout
+====================== */
+.grid-3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
-.skill-card {
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* ======================
+   Cards
+====================== */
+.card {
     background: #111827;
     padding: 20px;
     border-radius: 8px;
     transition: 0.3s;
 }
 
-.skill-card:hover {
+.card:hover {
     transform: translateY(-5px);
 }
 
-.skill-card ul {
-    list-style: square;
-    padding-left: 20px;
-}
-
-/* ===========================
-   Projects
-=========================== */
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.project-card {
-    background: #111827;
-    padding: 20px;
-    border-radius: 8px;
-    transition: 0.3s;
-}
-
-.project-card:hover {
-    transform: scale(1.03);
-}
-
-.project-card a {
-    display: inline-block;
+.card ul {
     margin-top: 10px;
-    color: #38bdf8;
-    text-decoration: none;
+    padding-left: 20px;
+    list-style: square;
 }
 
-/* ===========================
-   Experience
-=========================== */
-.experience-card {
-    background: #111827;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
-
-/* ===========================
+/* ======================
    Contact
-=========================== */
+====================== */
 .contact-links {
     text-align: center;
     margin-top: 20px;
@@ -193,9 +165,9 @@ nav a:hover {
     color: #0ea5e9;
 }
 
-/* ===========================
+/* ======================
    Footer
-=========================== */
+====================== */
 footer {
     text-align: center;
     padding: 20px;
@@ -203,9 +175,9 @@ footer {
     font-size: 0.9rem;
 }
 
-/* ===========================
+/* ======================
    Responsive
-=========================== */
+====================== */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
